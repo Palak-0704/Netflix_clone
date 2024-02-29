@@ -1,0 +1,547 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: sans-serif;
+}
+.firstPage{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/e4b3c14a-684b-4fc4-b14f-2b486a4e9f4e/IN-en-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.header{
+    padding-top:1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header .logo{
+    height:5rem;
+    width:10rem;
+    align-items: center;
+    margin-top:-1rem;
+}
+.logo img{
+    height: inherit;
+    width: inherit;
+}
+.headerDetails{
+    height: 2.25rem;
+    width: 15rem;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 1rem;
+}
+.headerDetails #selectLang{
+    width: 10rem;
+    height:inherit;
+    background-color:rgba(0,0,0,0.6);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 10;
+    border-radius: 3px;
+    margin-right:1rem;
+}
+.headerDetails .btn{
+    background-color:#E50914;
+    height: inherit;
+    width: 7rem;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 10;
+    border-radius: 3px;
+    border: none;
+
+}
+.mainContent1{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.mainContent1 h1{
+    font-size: 3.25rem;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(255, 245, 245);
+
+}
+.mainContent1 h2{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: rgb(255,255,255);
+    text-align: center;
+
+}
+.mainContent1 h3{
+    font-size: 1.40rem;
+    font-weight: 300;
+    color:white;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 390px;
+    font-size:18px;
+    font-family: sans-serif;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:5px;
+    border: 1px groove;
+} 
+.mainContent1 .email button{
+    height:56px;
+    width: 200px;
+    font-size:25px;
+    margin-left:0.75%;
+    font-family: sans-serif;
+    background-color:#E50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+} 
+/*second page*/
+.border{
+    background-color:rgb(92, 87, 87);
+    height: 0.5rem;
+}
+.secondPage{
+    background-color:black;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.secondPage .mainContent2{
+    height:auto;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+}
+.secondPage .mainText{
+    width:50%;
+    height: auto;
+    text-align: left;
+    background-color: black;
+}
+.mainText h1{
+    font-weight: 800;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+}
+.mainText h3{
+    color: white;
+    font-weight:530;
+    font-size:23px;
+}
+.player{
+    width:50%;
+    height: auto;
+    padding-left: 2%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+.player img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: left;
+    align-items: center;
+    z-index: 1;
+    object-fit: contain;
+
+}
+.player .vid{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    object-fit: contain;
+
+}
+/*third page*/
+.thirdPage{
+    background-color:black;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top:5%;
+    padding-bottom:5%;
+
+}
+.thirdPage .mainContent3{
+    height:auto;
+    width: inherit;
+    display: flex;
+    background-color:black;
+    padding-left:2rem;
+    margin-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom:4rem;
+    align-items: center;
+}
+.mainContent3 .view{
+    width:50%;
+    height:auto;
+    display: flex;
+    background-color: black;
+    justify-content:center ;
+    align-items: center;
+}
+.view img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: left;
+    align-items: center;
+}
+.downloadBar{
+    background-color: black;
+    position: absolute;
+    left:10%;
+    margin-top: 23%;
+    width:25rem;
+    height: 6rem;
+    border-radius:10px;
+    border: 1px groove;
+    display: flex;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+}
+.downloadBar .downloadImg{
+    background-color: aqua;
+    width: 4rem;
+}
+.downloadImg img{
+    width: inherit;
+    height: 5rem;
+}
+.downloadName{
+    padding-left: 0.8rem;
+    padding-top: 1.3rem;
+    width: 17rem;
+}
+.downloadName h5{
+    color: blue;
+    font-weight: 100;
+}
+.downloadName h4{
+    font-weight: 100;
+}
+.downloadIcon{
+    width: 3rem;
+    padding-top: 12px;
+}
+.downloadIcon img{
+    width: inherit;
+    height: inherit;
+}
+.mainContent3 .mainText2{
+    width:50%;
+    height: auto;
+    text-align: left;
+    background-color:black;
+    color: white;
+}
+.mainText2 h1{
+    font-size: 3rem;
+    font-weight:1000;
+}
+.mainText2 h3{
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+/*4th page*/
+.forthPage{
+    background-color:black;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.forthPage .mainContent4{
+    height:auto;
+    width: inherit;
+    display: flex;
+    background-color:black;
+    padding-left: 3%;
+    padding-right:3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+}
+.mainContent4 .mainText3{
+    width:50%;
+    height: auto;
+    text-align: left;
+    background-color:black;
+    color: white;
+}
+.mainText3 h1{
+    font-weight: 800;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+}
+.mainText3 h3{
+    color: white;
+    font-weight:200;
+    font-size:1.5rem;
+}
+.mainContent4 .player2{
+    width:50%;
+    height: auto;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.player2 img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: left;
+    align-items: center;
+    object-fit: contain;
+    z-index: 1;
+}
+.player2 .vid{
+    margin: auto;
+    width:fit-content;
+    height: auto;
+    position: absolute;
+    scale: 0.81;
+    padding-bottom:11rem;
+}
+
+/*5th page*/
+.fifthPage{
+    background-color:black;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top:5%;
+    padding-bottom:5%;
+
+}
+.fifthPage .mainContent5{
+    height:auto;
+    width: inherit;
+    display: flex;
+    background-color:black;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    align-items: center;
+}
+.mainContent5 .player3{
+    width:50%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+.player3 img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: left;
+    align-items: center;
+}
+.mainContent5 .mainText4{
+    width:50%;
+    height: auto;
+    text-align: left;
+    background-color:black;
+    color: white;
+}
+.mainText4 h1{
+    font-size: 3.5rem;
+    font-weight:1000;
+}
+.mainText4 h3{
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+/*6thPage*/
+.sixthPage{
+    background-color:black;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top:3%;
+    padding-bottom:3%;
+    color: white;
+
+}
+.sixthPage .mainContent6{
+    height:auto;
+    width: inherit;
+    display: grid;
+    background-color:black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.headingQuestion h1{
+    background-color:black;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+.list{
+    background-color:black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+.question{
+    padding-top: 3%;
+}
+li{
+    display: list-item;
+}
+.l1,.l2,.l3,.l4,.l5,.l6{
+    background-color:rgb(45,45,45);
+    margin-bottom: 10px;
+    color: white;
+    width:100%;
+    height:5rem;
+    padding: 2.5%;
+    font-weight: 200;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;  
+}
+.icon{
+    font-size: 4rem;
+    margin-top: -20px;
+}
+.l1:hover,.l2:hover,.l3:hover,.l4:hover,.l5:hover,.l6:hover{
+    background-color: rgb(65,65,65);
+}
+
+.mainContent6 .bottom{
+    background-color:black;
+    text-align: center;
+    padding-top: 50px;
+}
+.bottom h3{
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+.bottom .email{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.bottom .email button{
+    height:56px;
+    width: 200px;
+    font-size:25px;
+    margin-left:0.75%;
+    font-family: sans-serif;
+    background-color:#E50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.bottom input{
+    height: 56px;
+    width: 390px;
+    font-size:18px;
+    font-family: sans-serif;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:5px;
+    border: 1px groove;
+}
+/*7thpage*/
+.seventhPage{
+    background-color:black;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top:3%;
+    padding-bottom:3%;
+    color: white;
+}
+.footer{
+    height:auto;
+    width: inherit;
+    display:grid;
+    background-color:black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.footer .footerHeading h4,a.contact{
+    font-size: 1.15rem;
+    font-weight: 200;
+    color: rgb(153, 152, 152);
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.L1,.L2,.L3,.L4,.L5,.L6,.L7,.L8,.L9,.L10,.L11,.L12,.L13,.L14,.L15{
+    margin-bottom: 10px;
+}
+a.A1,a.A2,a.A3,a.A4,a.A5,a.A6,a.A7,a.A8,a.A9,a.A10,a.A11,a.A12,a.A13,a.A14,a.A15{
+    font-size: 0.94rem;
+    font-weight: 200;
+    color: rgb(153, 152, 152);
+}
+.lang #selectLang{
+    width: 10%;
+    height:2rem;
+    background-color:rgba(41, 41, 41, 0.5);
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 10;
+    border-radius: 3px;
+
+}
+.end{
+    color: rgb(153, 152, 152); 
+}
